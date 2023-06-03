@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_almacen">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_vinos"
+                        android:icon="@drawable/ic_vino"
+                        android:title="@string/menu_vinos"/>
+                    <item
+                        android:id="@+id/nav_cervezas"
+                        android:icon="@drawable/ic_cerveza"
+                        android:title="@string/menu_cervezas" />
+                    <item
+                        android:id="@+id/nav_refrescos"
+                        android:icon="@drawable/ic_soda_bottle"
+                        android:title="@string/menu_refrescos" />
+                    <item
+                        android:id="@+id/nav_aguas"
+                        android:icon="@drawable/ic_agua"
+                        android:title="@string/menu_aguas" />
+                </group>
+            </menu>
+        </item>
+        <item android:title="@string/menu_licores">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_licores_varios"
+                        android:icon="@drawable/ic_licores"
+                        android:title="@string/menu_varios"/>
+                    <item
+                        android:id="@+id/nav_licores_artesanos"
+                        android:icon="@drawable/ic_licores_artesanos"
+                        android:title="@string/menu_artesanos"/>
+                    <item
+                        android:id="@+id/nav_whiskies"
+                        android:icon="@drawable/ic_whiskies"
+                        android:title="@string/menu_whiskies" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_congelador"
+            android:icon="@drawable/ic_congelados"
+            android:title="@string/menu_congelador" />
+        <item
+            android:id="@+id/nav_nevera"
+            android:icon="@drawable/ic_nevera"
+            android:title="@string/menu_nevera" />
+        <item
+            android:id="@+id/nav_limpieza"
+            android:icon="@drawable/ic_limpieza"
+            android:title="@string/menu_limpieza" />
+        <item
+            android:id="@+id/nav_snacks"
+            android:icon="@drawable/ic_snack"
+            android:title="@string/menu_snacks" />
+    </group>
+</menu>

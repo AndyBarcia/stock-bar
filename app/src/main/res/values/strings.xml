@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Stock Bar</string>
+    <string name="navigation_drawer_open">Abrir panel navegación</string>
+    <string name="navigation_drawer_close">Cerrar panel navegación</string>
+    <string name="nav_header_title">Stock Bar</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_almacen">Almacén</string>
+    <string name="menu_vinos">Vinos</string>
+    <string name="menu_cervezas">Cervezas</string>
+    <string name="menu_aguas">Aguas</string>
+    <string name="menu_refrescos">Refrescos</string>
+    <string name="menu_congelador">Congelados</string>
+    <string name="menu_nevera">Nevera</string>
+    <string name="menu_licores">Licores</string>
+    <string name="menu_varios">Licores Varios</string>
+    <string name="menu_artesanos">Licores Artesanos</string>
+    <string name="menu_whiskies">Whiskies</string>
+    <string name="menu_limpieza">Productos Limpieza</string>
+    <string name="menu_snacks">Snacks</string>
+
+    <string name="profile">Perfil</string>
+    <string name="login">Iniciar Sesión</string>
+
+    <string name="bar_puertas">Bar Puertas</string>
+    <string name="tamuxe">Cervecería Tamuxe</string>
+
+    <array name="bar_array">
+        <item>@string/bar_puertas</item>
+        <item>@string/tamuxe</item>
+    </array>
+
+    <array name="move_menu_array">
+        <item>@string/menu_vinos</item>
+        <item>@string/menu_cervezas</item>
+        <item>@string/menu_aguas</item>
+        <item>@string/menu_varios</item>
+        <item>@string/menu_artesanos</item>
+        <item>@string/menu_whiskies</item>
+        <item>@string/menu_congelador</item>
+        <item>@string/menu_nevera</item>
+        <item>@string/menu_limpieza</item>
+        <item>@string/menu_snacks</item>
+    </array>
+
+    <string name="edit">Editar</string>
+    <string name="move_to">Mover</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="remove">Eliminar</string>
+
+    <string name="add_popup_title">Añadir producto</string>
+    <string name="edit_popup_title">Editar producto</string>
+    <string name="remove_popup_title">Eliminar producto</string>
+
+    <string name="edit_popup_cantidad">Cantidad %1$d</string>
+    <string name="edit_popup_change_text">%1$s%2$d</string>
+    <string name="move_popup_title">Mover \'%1$s\' de %2$s a:</string>
+    <string name="remove_popup_are_you_sure">¿Realmente quieres eliminar \'%1$s\'?</string>
+
+    <plurals name="remove_popup_still_n_units_left">
+        <item quantity="one">Aún queda %d unidad.</item>
+        <item quantity="other">Aún quedan %d unidades.</item>
+    </plurals>
+
+    <string name="default_product_name">Producto</string>
+    <string name="default_product_stock">0</string>
+    <string name="default_product_bar_name">Bar</string>
+</resources>
